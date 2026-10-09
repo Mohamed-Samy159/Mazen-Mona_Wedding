@@ -9,15 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "framer-motion": "latest",
-    "lucide-react": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-icons": "latest",
-    "tailwindcss": "latest",
-    "@tailwindcss/vite": "latest",
-    "vite": "latest"
-  },
-  "devDependencies": {}
+    "@tailwindcss/vite": "4.1.14",
+    "@vitejs/plugin-react": "5.0.4",
+    "framer-motion": "^12.23.22",
+    "lucide-react": "0.468.0",
+    "motion-dom": "^12.23.21",
+    "motion-utils": "^12.23.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-icons": "5.5.0",
+    "tailwindcss": "4.1.14",
+    "vite": "7.1.9"
+  }
 }
