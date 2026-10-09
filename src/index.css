@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #f8f4ed;
+  --color-champagne: #e7d2a2;
+  --color-gold: #c59e5b;
+  --color-burgundy: #2b151b;
+  --color-ink: #241c1d;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Manrope", sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background: #f8f4ed;
+  color: #241c1d;
+  -webkit-font-smoothing: antialiased;
+}
+* { box-sizing: border-box; }
+::selection { background: rgba(197,158,91,.35); color: #2b151b; }
+
+.section-shell { padding: 7rem 1.5rem; }
+.section-inner { width: 100%; max-width: 1100px; margin: 0 auto; }
+.eyebrow { font-size: .65rem; text-transform: uppercase; letter-spacing: .35em; color: rgba(36,28,29,.45); }
+.section-title { margin-top: .75rem; font-family: "Cormorant Garamond", serif; font-size: clamp(2.5rem, 6vw, 4.2rem); font-weight: 400; color: #2b151b; }
+.glass-card {
+  border: 1px solid rgba(197,158,91,.35);
+  background: rgba(255,255,255,.38);
+  border-radius: 1.5rem;
+  padding: 2rem 1rem;
+  box-shadow: 0 20px 50px rgba(43,21,27,.07);
+  backdrop-filter: blur(12px);
+}
+.field-label { display: block; margin-bottom: .65rem; font-size: .65rem; text-transform: uppercase; letter-spacing: .2em; color: rgba(36,28,29,.5); }
+.field {
+  width: 100%;
+  border: 1px solid rgba(197,158,91,.22);
+  border-radius: 1rem;
+  background: rgba(255,255,255,.55);
+  padding: .9rem 1rem;
+  outline: none;
+  color: #241c1d;
+  transition: border .2s, box-shadow .2s;
+}
+.field:focus { border-color: rgba(197,158,91,.7); box-shadow: 0 0 0 4px rgba(197,158,91,.08); }
